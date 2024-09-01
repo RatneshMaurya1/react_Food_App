@@ -1,0 +1,59 @@
+header img {
+  border: 1px solid red;
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+}
+
+header {
+  background-color: #f0f8ff;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 15vh;
+  padding: 1rem;
+  display: flex;
+}
+
+.list > ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.list > ul > li {
+  cursor: pointer;
+  padding-right: 4vw;
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+.cards {
+  border-radius: 10px;
+  width: 270px;
+  height: 293px;
+  overflow: hidden;
+}
+
+.cards > img {
+  object-fit: cover;
+  border-radius: 10px;
+  width: 100%;
+  height: 55%;
+}
+
+.cards > h2, .cards > h3, .cards > h5, .cards > h6 {
+  margin-top: 1px;
+  padding-left: 10px;
+}
+
+.body {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 80%;
+  height: auto;
+  margin-top: 1rem;
+  display: flex;
+}
+/*# sourceMappingURL=index.2212206d.css.map */

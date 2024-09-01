@@ -1,0 +1,40 @@
+.cards{
+    height: 293px;
+    width: 270px;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    
+}
+.cards > img{
+    height: 55%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.cards > h2{
+    margin-top: 1px;
+    padding-left: 10px;
+}
+.cards > h3{
+    margin-top: 1px;
+    padding-left: 10px;
+}
+.cards > h5{
+    margin-top: 1px;
+    padding-left: 10px;
+}
+.cards > h6{
+    margin-top: 1px;
+    padding-left: 10px;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: auto;
+    width: 80%;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
