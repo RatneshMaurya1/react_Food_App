@@ -28,10 +28,15 @@ header {
 }
 
 .cards {
+  cursor: pointer;
   border-radius: 10px;
   width: 270px;
   height: 293px;
   overflow: hidden;
+}
+
+.cards:hover {
+  border: .1px solid #000;
 }
 
 .cards > img {
@@ -42,7 +47,7 @@ header {
 }
 
 .cards > h2, .cards > h3, .cards > h5, .cards > h6 {
-  margin-top: 1px;
+  margin-top: 5px;
   padding-left: 10px;
 }
 
@@ -55,5 +60,26 @@ header {
   height: auto;
   margin-top: 1rem;
   display: flex;
+}
+
+.searchInput {
+  margin-top: 1%;
+}
+
+.searchInput > input {
+  border: .2px solid #000;
+  border-radius: 10px;
+  padding: 10px 30px 10px 10px;
+  font-size: 1rem;
+}
+
+.searchInput > button {
+  cursor: pointer;
+  background-color: #fff;
+  border: .2px solid #000;
+  border-radius: 10px;
+  margin-left: 10px;
+  padding: 10px 25px;
+  font-size: 1rem;
 }
 /*# sourceMappingURL=index.2212206d.css.map */

@@ -4,7 +4,10 @@
     border-radius: 10px;
     /* border: 1px solid black; */
     overflow: hidden;
-    
+    cursor: pointer;
+}
+.cards:hover{
+    border: 0.1px solid black;
 }
 .cards > img{
     height: 55%;
@@ -15,18 +18,22 @@
 .cards > h2{
     margin-top: 1px;
     padding-left: 10px;
+    margin-top: 5px;
 }
 .cards > h3{
     margin-top: 1px;
     padding-left: 10px;
+    margin-top: 5px;
 }
 .cards > h5{
     margin-top: 1px;
     padding-left: 10px;
+    margin-top: 5px;
 }
 .cards > h6{
     margin-top: 1px;
     padding-left: 10px;
+    margin-top: 5px;
 }
 .body{
     display: flex;
@@ -38,3 +45,24 @@
     margin-top: 1rem;
     flex-wrap: wrap;
 }
+.searchInput{
+    margin-top: 1%;
+}
+.searchInput > input{
+    font-size: 1rem;
+    padding: 10px;
+    padding-right: 30px;
+    border-radius: 10px;
+    border: 0.2px solid black;
+}
+.searchInput > button{
+    margin-left: 10px;
+    font-size: 1rem;
+    padding: 10px 25px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 0.2px solid black;
+    cursor: pointer;
+}
+
+

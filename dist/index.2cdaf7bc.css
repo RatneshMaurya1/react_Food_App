@@ -5,7 +5,10 @@
 }
 
 .AppDiv {
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
   display: flex;
 }
 /*# sourceMappingURL=index.2cdaf7bc.css.map */
