@@ -22,9 +22,17 @@ header {
 
 .list > ul > li {
   cursor: pointer;
+  color: #000;
+  outline: none;
   padding-right: 4vw;
   font-size: 1.5em;
   font-weight: 800;
+}
+
+@media (width <= 600px) {
+  .list > ul > li {
+    font-size: 1rem;
+  }
 }
 
 .cards {
@@ -81,5 +89,11 @@ header {
   margin-left: 10px;
   padding: 10px 25px;
   font-size: 1rem;
+}
+
+@media (width <= 600px) {
+  .searchInput > input {
+    padding-right: 0;
+  }
 }
 /*# sourceMappingURL=index.2212206d.css.map */

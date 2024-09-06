@@ -24,4 +24,11 @@ header{
     font-size: 1.5em;
     font-weight: 800;
     cursor: pointer;
+    outline: none;
+    color: #000;
+}
+@media (max-width:600px){
+    .list > ul > li{
+        font-size: 1rem;
+    }
 }

@@ -66,3 +66,8 @@
 }
 
 
+@media (max-width:600px){
+    .searchInput > input{
+        padding-right: 0px;
+    }
+}

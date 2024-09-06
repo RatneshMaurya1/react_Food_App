@@ -1,5 +1,6 @@
 import "./Header.css"
 import { headerImgUrl } from "../config"
+import { Link } from "react-router-dom"
 
 
 const Header = () => {
@@ -10,10 +11,10 @@ const Header = () => {
             <img src={headerImgUrl} alt="logo"/>
             <div className="list">
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Contact</li>
+                    <li><Link to={`/`}>Home</Link></li>
+                    <li><Link to={`/about`}>About</Link></li>
+                    <li><Link to={`/services`}>Services</Link></li>
+                    <li><Link to={`/contact`}>Contact</Link></li>
                 </ul>
 
             </div>
