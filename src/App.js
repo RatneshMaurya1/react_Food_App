@@ -8,6 +8,7 @@ import About from "./About";
 import Error from "./Error";
 import Services from "./Services";
 import Contact from "./Contact";
+import Menu from "./Menu";
 
 
 const App = () => {
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
             {
                 path:"/contact",
                 element:<Contact/>,
+            },
+            {
+                path:"/menu/:resId",
+                element:<div className="main-menu"><Menu/></div>,
             },
         ]
     },

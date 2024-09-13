@@ -2,6 +2,7 @@ import "./Body.css"
 import { RestaurantList } from "../config"
 import React, { useState} from "react"
 import RestaurantCard from "../Cards/Cards"
+import { Link } from "react-router-dom"
 
 
 function filterData(input,restaurant){
@@ -14,6 +15,7 @@ const Body = () => {
 const [restaurants,setRestaurants] = useState(RestaurantList)
 const [inputText, setInputText] = useState("")
 
+
     return (
       <>
       <div className="searchInput">
@@ -23,6 +25,7 @@ const [inputText, setInputText] = useState("")
           value={inputText}
           onChange={(e) => setInputText(e.target.value)} 
           />
+
           <button onClick={() => {
             const data = filterData(inputText,allRestaurant)
             setRestaurants(data)
@@ -31,7 +34,7 @@ const [inputText, setInputText] = useState("")
         <div className="body">
           {
             restaurants.map((restaurant) => {
-              return <RestaurantCard {...restaurant.info} key={restaurant.info.id}/>
+              return <Link to={"/menu/" + restaurant.info.id } key={restaurant.info.id}><RestaurantCard {...restaurant.info} /></Link>
             })
           }
         {/* <RestaurantCard restaurant = {RestaurantList[0]}/>

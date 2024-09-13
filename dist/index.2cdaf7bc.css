@@ -24,4 +24,51 @@
 .footer h1 {
   color: #00f;
 }
+
+.main-menu {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.menu {
+  width: 600px;
+  height: auto;
+  margin-top: 30px;
+}
+
+.parent {
+  text-wrap: wrap;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.menu > img {
+  border-radius: 10px;
+  width: 400px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.text > h2, .text > h3, .text > h4, .text > h5, .text > h6 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.btn {
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: 10px;
+  margin-left: 20px;
+  padding: 20px;
+  display: flex;
+}
+
+.btn > button {
+  cursor: pointer;
+  background-color: beige;
+  border: .5px solid #000;
+  border-radius: 10px;
+  padding: 10px;
+}
 /*# sourceMappingURL=index.2cdaf7bc.css.map */

@@ -21,3 +21,59 @@
 .footer h1{
     color: blue;
 }
+.main-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu{
+    margin-top: 30px;
+    height: auto;
+    width: 600px;
+}
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+}
+.menu > img{
+    height: 300px;
+    width: 400px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.text > h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.text > h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.text > h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.text > h5{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.text > h6{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.btn{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.btn > button{
+    padding: 10px;
+    background-color: beige;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0.5px solid black;
+}
